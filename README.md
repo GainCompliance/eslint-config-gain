@@ -1,0 +1,1 @@
+# @gaincompliance/eslint-config-gain
