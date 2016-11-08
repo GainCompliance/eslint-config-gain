@@ -1,4 +1,26 @@
 {
   "name": "@gaincompliance/eslint-config-gain",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "shared eslint rules for gain projects",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint rules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GainCompliance/eslint-config-gain.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "jsx",
+    "es6",
+    "mocha"
+  ],
+  "author": "Gain Compliance",
+  "bugs": {
+    "url": "https://github.com/GainCompliance/eslint-config-gain/issues"
+  },
+  "homepage": "https://github.com/GainCompliance/eslint-config-gain#readme"
 }
