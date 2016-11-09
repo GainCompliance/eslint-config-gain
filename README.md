@@ -2,6 +2,8 @@
 
 [![Build Status](https://img.shields.io/travis/GainCompliance/eslint-config-gain/master.svg?style=flat)](https://travis-ci.org/GainCompliance/eslint-config-gain)
 
+[![npm](https://img.shields.io/npm/v/@gaincompliance/eslint-config-gain.svg?maxAge=2592000)](https://www.npmjs.com/package/@gaincompliance/eslint-config-gain)
+
 ## Usage
 
 Extend the rulesets contained in this config to stay in sync with our conventions. Override any conflicting rules in
