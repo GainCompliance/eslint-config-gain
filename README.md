@@ -4,6 +4,11 @@
 
 [![npm](https://img.shields.io/npm/v/@gaincompliance/eslint-config-gain.svg?maxAge=2592000)](https://www.npmjs.com/package/@gaincompliance/eslint-config-gain)
 
+## Installation
+```
+$ npm i @gaincompliance/eslint-config-gain -D
+```
+
 ## Usage
 
 Extend the rulesets contained in this config to stay in sync with our conventions. Override any conflicting rules in
@@ -11,7 +16,6 @@ your local config, but consider contributing them back to this config if we shou
 
 ### Base
 In your base `.eslintrc`, extend the `es6.js` ruleset:
-
 ```
 extends: '@gaincompliance/gain/rules/es6'
 ```
