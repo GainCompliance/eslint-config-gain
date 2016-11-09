@@ -16,11 +16,23 @@
     "react",
     "jsx",
     "es6",
-    "mocha"
+    "mocha",
+    "cucumber"
   ],
   "author": "Gain Compliance",
   "bugs": {
     "url": "https://github.com/GainCompliance/eslint-config-gain/issues"
   },
-  "homepage": "https://github.com/GainCompliance/eslint-config-gain#readme"
+  "homepage": "https://github.com/GainCompliance/eslint-config-gain#readme",
+  "dependencies": {
+    "eslint": "3.9.1",
+    "eslint-config-airbnb": "13.0.0",
+    "eslint-config-import": "0.13.0",
+    "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
+    "eslint-plugin-filenames": "1.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "3.0.1",
+    "eslint-plugin-mocha": "4.7.0",
+    "eslint-plugin-react": "6.6.0"
+  }
 }
