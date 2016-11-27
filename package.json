@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint rules",
     "postpublish": "greenkeeper-postpublish",
-    "precommit": "npm test"
+    "precommit": "npm test",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,8 @@
   "devDependencies": {
     "cz-conventional-changelog": "1.2.0",
     "greenkeeper-postpublish": "1.0.1",
-    "husky": "0.11.9"
+    "husky": "0.11.9",
+    "validate-commit-msg": "2.8.2"
   },
   "config": {
     "commitizen": {
