@@ -2,16 +2,18 @@
   "name": "@gaincompliance/eslint-config-gain",
   "license": "MIT",
   "description": "shared eslint rules for gain projects",
-  "version": "0.2.0",
+  "version": "0.0.0-semantically-released",
   "scripts": {
     "test": "eslint rules",
+    "preversion": "npm test",
     "postpublish": "greenkeeper-postpublish",
     "precommit": "npm test",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GainCompliance/eslint-config-gain.git"
+    "url": "https://github.com/GainCompliance/eslint-config-gain.git"
   },
   "keywords": [
     "eslint",
@@ -41,6 +43,7 @@
     "cz-conventional-changelog": "1.2.0",
     "greenkeeper-postpublish": "1.0.1",
     "husky": "0.11.9",
+    "semantic-release": "6.3.2",
     "validate-commit-msg": "2.8.2"
   },
   "config": {
