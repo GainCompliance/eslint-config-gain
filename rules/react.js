@@ -8,7 +8,7 @@ module.exports = {
     'import/prefer-default-export': 'error',
     'jsx-quotes': 'error',
     'no-extra-parens': 'off',
-    'react/display-name': 'error',
+    'react/display-name': ['error', {ignoreTranspilerName: true}],
     'react/no-is-mounted': 'error',
     'react/no-unknown-property': 'error',
     'react/prefer-stateless-function': 'error',
