@@ -35,6 +35,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'never'],
     'import/prefer-default-export': 'off',
     'arrow-parens': ['error', 'as-needed'],
-    'global-require': 'off'
+    'global-require': 'off',
+    'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}]
   }
 };
