@@ -5,6 +5,7 @@
 [![Build Status](https://img.shields.io/travis/GainCompliance/eslint-config-gain/master.svg?style=flat)](https://travis-ci.org/GainCompliance/eslint-config-gain)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![greenkeeper badge](https://badges.greenkeeper.io/GainCompliance/eslint-config-gain.svg)
 
 
 ## Installation
