@@ -23,6 +23,7 @@ module.exports = {
     'react/jsx-pascal-case': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
-    'react/jsx-wrap-multilines': 'error'
+    'react/jsx-wrap-multilines': 'error',
+    'react/require-default-props': 'off'
   }
 };
