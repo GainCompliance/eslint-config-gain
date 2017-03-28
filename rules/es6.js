@@ -30,7 +30,7 @@ module.exports = {
     'one-var': ['error', {uninitialized: 'always', initialized: 'never'}],
     'one-var-declaration-per-line': ['error', 'initializations'],
     'filenames/match-regex': ['error', '^[a-z0-9\\-\\.]+$'],
-    'new-cap': ['error', {capIsNewExceptions: ['Map']}],
+    'new-cap': ['error', {capIsNewExceptions: ['Map', 'List']}],
     yoda: ['error', 'always'],
     'handle-callback-err': 'error',
     'object-curly-spacing': ['error', 'never'],
