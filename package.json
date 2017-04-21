@@ -33,7 +33,7 @@
     "eslint-config-airbnb": "14.1.0",
     "eslint-config-import": "0.13.0",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
-    "eslint-plugin-filenames": "1.1.0",
+    "eslint-plugin-filenames": "1.2.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-mocha": "4.9.0",
