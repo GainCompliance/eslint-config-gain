@@ -24,6 +24,7 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/jsx-wrap-multilines': 'error',
-    'react/require-default-props': 'off'
+    'react/require-default-props': 'off',
+    'import/no-named-as-default': 'off'
   }
 };
