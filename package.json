@@ -6,7 +6,6 @@
   "scripts": {
     "test": "eslint rules",
     "preversion": "npm test",
-    "postpublish": "greenkeeper-postpublish",
     "precommit": "npm test",
     "commitmsg": "validate-commit-msg",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -41,7 +40,6 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "2.0.0",
-    "greenkeeper-postpublish": "1.0.1",
     "husky": "0.13.4",
     "semantic-release": "6.3.6",
     "validate-commit-msg": "2.12.1"
