@@ -30,20 +30,20 @@
   "homepage": "https://github.com/GainCompliance/eslint-config-gain#readme",
   "dependencies": {
     "eslint": "3.19.0",
-    "eslint-config-airbnb": "14.1.0",
+    "eslint-config-airbnb": "15.0.1",
     "eslint-config-import": "0.13.0",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
     "eslint-plugin-filenames": "1.2.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
     "eslint-plugin-mocha": "4.9.0",
-    "eslint-plugin-react": "6.10.3"
+    "eslint-plugin-react": "7.0.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "2.0.0",
     "greenkeeper-postpublish": "1.0.1",
-    "husky": "0.13.3",
-    "semantic-release": "6.3.2",
+    "husky": "0.13.4",
+    "semantic-release": "6.3.6",
     "validate-commit-msg": "2.12.1"
   },
   "config": {
