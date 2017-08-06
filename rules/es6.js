@@ -37,6 +37,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'global-require': 'off',
     'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}],
-    'no-unused-vars': ['error', {ignoreRestSiblings: true}]
+    'no-unused-vars': ['error', {ignoreRestSiblings: true}],
+    'no-multi-spaces': ['error', {ignoreEOLComments: true}]
   }
 };
