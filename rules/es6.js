@@ -14,7 +14,7 @@ module.exports = {
     }
   },
 
-  plugins: ['filenames'],
+  plugins: ['filenames', 'eslint-comments'],
 
   extends: [
     'eslint:recommended',
@@ -39,6 +39,11 @@ module.exports = {
     'global-require': 'off',
     'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}],
     'no-unused-vars': ['error', {ignoreRestSiblings: true}],
-    'no-multi-spaces': ['error', {ignoreEOLComments: true}]
+    'no-multi-spaces': ['error', {ignoreEOLComments: true}],
+    'eslint-comments/disable-enable-pair': 'error',
+    'eslint-comments/no-duplicate-disable': 'error',
+    'eslint-comments/no-unlimited-disable': 'error',
+    'eslint-comments/no-unused-disable': 'error',
+    'eslint-comments/no-unused-enable': 'error'
   }
 };
