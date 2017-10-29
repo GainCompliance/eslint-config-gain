@@ -31,7 +31,7 @@
     "eslint": "4.10.0",
     "eslint-config-airbnb": "15.1.0",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
-    "eslint-plugin-eslint-comments": "2.0.0",
+    "eslint-plugin-eslint-comments": "2.0.1",
     "eslint-plugin-filenames": "1.2.0",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
