@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/GainCompliance/eslint-config-gain#readme",
   "dependencies": {
+    "dont-crack": "1.2.1",
     "eslint": "4.15.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",

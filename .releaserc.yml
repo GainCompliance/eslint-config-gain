@@ -1,0 +1,5 @@
+verifyRelease:
+  - path: dont-crack
+    testAgainst:
+      - https://github.com/GainCompliance/reference-client
+      - https://github.com/GainCompliance/react-components
