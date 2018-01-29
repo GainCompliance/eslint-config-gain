@@ -1,0 +1,13 @@
+{
+  "projects": [
+  {
+    "name": "git@github.com:GainCompliance/reference-client.git",
+    "postinstall": "npm run build",
+    "test": "npm test"
+  },
+  {
+    "name": "git@github.com:GainCompliance/react-components.git",
+    "test": "npm test"
+  }
+  ]
+}
