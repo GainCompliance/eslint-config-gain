@@ -6,8 +6,10 @@ before_script:
     - npm ls >/dev/null
 after_script:
     - npm run greenkeeper:upload-lockfile
-after_success:
-    - npm run semantic-release
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: npm run semantic-release
 branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
