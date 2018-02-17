@@ -31,7 +31,7 @@
   "homepage": "https://github.com/GainCompliance/eslint-config-gain#readme",
   "dependencies": {
     "dont-crack": "1.2.1",
-    "eslint": "4.17.0",
+    "eslint": "4.18.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-cucumber": "1.1.0",
     "eslint-plugin-eslint-comments": "2.0.2",
