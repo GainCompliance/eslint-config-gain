@@ -40,10 +40,10 @@
     "eslint-plugin-react": "7.7.0"
   },
   "devDependencies": {
-    "commitlint-config-gain": "1.0.5",
+    "commitlint-config-gain": "1.0.6",
     "cz-conventional-changelog": "2.1.0",
     "greenkeeper-lockfile": "2.3.1",
-    "husky": "1.0.0-rc.1",
+    "husky": "1.0.0-rc.13",
     "validate-commit-msg": "2.14.0"
   },
   "config": {
