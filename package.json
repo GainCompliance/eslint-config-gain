@@ -7,9 +7,7 @@
     "test": "eslint rules",
     "preversion": "npm test",
     "precommit": "npm test",
-    "commitmsg": "commitlint -e",
-    "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
-    "greenkeeper:upload-lockfile": "greenkeeper-lockfile-upload"
+    "commitmsg": "commitlint -e"
   },
   "repository": {
     "type": "git",
@@ -42,7 +40,6 @@
   "devDependencies": {
     "commitlint-config-gain": "1.0.6",
     "cz-conventional-changelog": "2.1.0",
-    "greenkeeper-lockfile": "2.3.1",
     "husky": "1.0.0-rc.13",
     "validate-commit-msg": "2.14.0"
   },
