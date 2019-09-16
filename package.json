@@ -41,7 +41,7 @@
     "eslint-plugin-react": "7.14.3"
   },
   "devDependencies": {
-    "commitlint-config-gain": "1.0.17",
+    "commitlint-config-gain": "1.0.18",
     "cz-conventional-changelog": "3.0.2",
     "husky": "3.0.5",
     "validate-commit-msg": "2.14.0"
