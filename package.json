@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "commitlint-config-gain": "1.0.24",
-    "cz-conventional-changelog": "3.2.0",
+    "cz-conventional-changelog": "3.2.1",
     "husky": "4.2.5",
     "validate-commit-msg": "2.14.0"
   },
